@@ -17,6 +17,11 @@ The example shows a SplitView with 3 entries. On Start the first content view is
 ![screenshot](./screenshot.png)  
 
 
+## Workaround
+
+Adding `.offset(y: 1)` or `.padding(1)` on the ScrollView fixes it (`ContentView.swift:38`).
+
+
 ## Tested on
 
 	- Xcode Version 16.0 RC (16A242) on macOS 15.0
