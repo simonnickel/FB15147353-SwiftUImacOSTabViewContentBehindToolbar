@@ -25,4 +25,5 @@ Adding `.offset(y: 1)` or `.padding(1)` on the ScrollView fixes it (`ContentView
 ## Tested on
 
 	- Xcode Version 16.0 RC (16A242) on macOS 15.0
+ 	- Xcode Version 16.1 (16B40) on macOS 15.1 (24B83)
 
